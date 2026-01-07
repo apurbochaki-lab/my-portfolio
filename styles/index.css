@@ -97,3 +97,44 @@ nav .menu a {
     max-width: 584px;
     vertical-align: middle;
 }
+
+/* About Section */
+#about{
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    margin: 130px auto;
+    border-radius: 10px;
+}
+.about-container {
+    padding: 131px 156px;
+    text-align: center;
+}
+.about-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-heading p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#about .about-container .about-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Common Style */
+.info-card p {
+    font-size: 18px;
+    color: #757575;
+}
+.info-card h4 {
+    font-size: 20px;
+    color: #474747;
+}
+
+
+
