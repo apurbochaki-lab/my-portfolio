@@ -136,5 +136,58 @@ nav .menu a {
     color: #474747;
 }
 
+/* Skill Section */
+#skill .skill-container {
+    margin: 130px 230px;
+}
 
+#skill .skill-container .skill-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+#skill .skill-container .skill-header h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#skill .skill-container .skill-header p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    max-width: 827px;
+    margin: 0 auto;
+}
+
+/* Skill Card Section */
+.skill-box .skill-card{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #00000029;
+    max-width: 267px;
+}
+
+.skill-box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.skill-card img{
+    margin: 30px 0 30px 30px;
+}
+
+.skill-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 33px;
+    padding-bottom: 30px;
+}
