@@ -22,6 +22,11 @@
     background-color: #474747;
 }
 
+.text-center {
+    text-align: center;
+    padding-top: 50px;
+}
+
 /* Main Style */
 header {
     background-color: #FFF8F3;
@@ -243,4 +248,48 @@ nav .menu a {
     color: #757575;
     /* text-align: justify; */
     /* margin-right: 71px; */
+}
+
+/* Footer Section */
+footer {
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+
+    /* border: 1px solid black; */
+}
+
+footer .footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+footer .footer-container p {
+    width: 562px;
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-container .social-icons a {
+    margin-right: 24px;
+}
+
+.footer-container .form input[type="text"] , .footer-container .form textarea {
+    width: 461px;
+    padding: 18px 30px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
 }
